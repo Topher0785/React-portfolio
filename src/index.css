@@ -11,3 +11,11 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+homepage-bgimage {
+  background: url(assets/cover/Chris\,\ Reagy\,\ Bubby.jpg);
+  height: 100%;
+  background-position: center;
+  background-repeat:no-repeat;
+  background-size: cover;
+  
+}
