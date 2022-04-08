@@ -23,13 +23,28 @@ function Nav() {
             <nav>
                 <ul className = "flex-row">
                   <li className = "mx-2">
-                      <a href="#about">
+                      <a href="about">
                           About me
                       </a>
                   </li>
-                  <li>
+                  <li className = "mx-2">
+                      <a href="Contact">
                       <span>Contact</span>
-                  </li>
+                      </a>
+                   </li>
+                   <li className = "mx-2">
+                      <a href="Resume">
+                      <span>Resume</span>
+                      </a>
+                   </li>
+                   <li className = "mx-2">
+                      <a href="Portfolio">
+                      <span>Portfolio</span>
+                      </a>
+                   </li>
+                </ul>  
+             
+                  
                   {categories.map((category) => (
                       <li
                         className="mx-1"
@@ -40,7 +55,7 @@ function Nav() {
                             </span>
                         </li>
                   ))}
-                </ul>
+                
                 
             </nav>
 
